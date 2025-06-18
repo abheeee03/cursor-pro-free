@@ -2,7 +2,7 @@
 import React, { useEffect } from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
-import { Download, ArrowRight } from 'lucide-react'
+import { Download } from 'lucide-react'
 import { useRouter } from 'next/navigation'
 
 function DownloadingPage() {

@@ -1,6 +1,6 @@
 import React from 'react'
 import Link from 'next/link'
-import { Download, Apple, Chrome } from 'lucide-react'
+import { Download, Chrome } from 'lucide-react'
 import Image from 'next/image'
 import { FaWindows, FaLinux, FaApple  } from "react-icons/fa";
 function AllDownloadsPage() {

@@ -38,8 +38,8 @@ function App() {
           <h1 className='bold text-8xl text-center font-bold mt-20'>The Cracked AI Code Editor</h1>
           <p className='mt-9 text-semibold text-xl'>Built to make you extraordinarily productive, Cursor Cracked is the best way to code with AI for free.</p>
           <div className='mt-16 flex gap-8'> 
-            <Link href={'/'} className='px-4 py-5 rounded-lg font-semibold hover:opacity-80 bg-white text-black'>Download for Your OS</Link>
-            <Link href={'/'} className='px-4 py-5 rounded-lg font-semibold hover:opacity-80 bg-black'>All Downloads</Link>
+            <Link href={'/download'} className='px-4 py-5 rounded-lg font-semibold hover:opacity-80 bg-white text-black'>Download for Your OS</Link>
+            <Link href={'/all-downloads'} className='px-4 py-5 rounded-lg font-semibold hover:opacity-80 bg-black'>All Downloads</Link>
           </div>
         </div>
         </div>

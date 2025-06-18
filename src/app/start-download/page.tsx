@@ -3,13 +3,10 @@ import React, { useEffect, useState } from 'react'
 import Link from 'next/link'
 
 function RICKROLL() {
-  const [isPlaying, setIsPlaying] = useState(true)
   const [isVideoLoaded, setIsVideoLoaded] = useState(false)
   
   useEffect(() => {
     const videoElement = document.getElementById('rickroll') as HTMLVideoElement
-    
-   
     
     const handleVideoLoaded = () => {
       setIsVideoLoaded(true)
@@ -19,25 +16,12 @@ function RICKROLL() {
       videoElement.addEventListener('playing', handleVideoLoaded)
     }
     
-    
     return () => {
       if (videoElement) {
         videoElement.removeEventListener('playing', handleVideoLoaded)
       }
     }
   }, [])
-  
-  const togglePlay = () => {
-    const video = document.getElementById('rickroll') as HTMLVideoElement
-    if (isPlaying) {
-      video.pause()
-    } else {
-      video.play()
-    }
-    setIsPlaying(!isPlaying)
-  }
-  
-
 
   return (
     <div className='min-h-screen w-full bg-black flex flex-col items-center justify-center'>

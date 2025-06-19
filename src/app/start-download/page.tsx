@@ -24,7 +24,7 @@ function RICKROLL() {
   }, [])
 
   return (
-    <div className='min-h-screen w-full bg-black flex flex-col items-center justify-center'>
+    <div className='min-h-screen text-center w-full bg-black flex flex-col items-center justify-center'>
       {isVideoLoaded && <h1>GET THE CURSOR PRO SUBSCRIPTION 😂</h1>}
       <div className='relative w-full max-w-4xl rounded-lg overflow-hidden shadow-2xl'>
         <video

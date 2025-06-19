@@ -37,7 +37,7 @@ function RICKROLL() {
       </div>
       {isVideoLoaded && <p>lets rickroll more people, reply on this tweet its working !
         
-        <Link href={'/'}> Click Here for TWEET</Link>
+        <Link href={'https://x.com/_AbhayHere/status/1935565394942611760'}> Click Here for TWEET</Link>
         
         </p>}
     </div>
